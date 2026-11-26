@@ -1,0 +1,30 @@
+# Данные — храним локально, в репозиторий не кладём
+data/*
+!data/.gitkeep
+*.csv
+*.parquet
+*.arrow
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Окружение и IDE
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Вывод
+reports/*.aux
+reports/*.log
+reports/*.out
